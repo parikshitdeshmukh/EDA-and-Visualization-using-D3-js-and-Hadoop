@@ -1,0 +1,22 @@
+Below Output gives a list of Co-occurring word with top 10 words.	
+text,size,  Co-occurances	
+tesla,   673	set(['sterling', 'work', 'colorado', 'woes', 'tesla', 'motors', 'bank', 'representatives', 'go', 'elon', 'invention', 'value', 'existence', 'owner', 'laboratory', 'nevada', 'technology', 'targets', 'market', 'inc', 'one', 'buyers', 'death', 'revival', 'ambitions', 'flight', 'decision', 'troubles', 'factory', 'shares', 'pages', 'ramps', 'battery', 'production', 'board', 'vehicle', 'autopilot', 'induction', 'compensation', 'stock', 'achievements', 'plant', 'crash', 'ability', 'risen', 'driverless', 'supercharger', 'driver', 'needs', 'lab', 'facebook', 'representative', 'reversal', 'invests', 'sticks', 'tub', 'debt', 'efforts', 'roadster', 'name', 'loss', 'acknowledges', 'center', 'semi', 'subscribe', 'science', 'vehicles', 'reports', 'unveils', 'spokeswoman', 'credit', 'chief', 'car', 'meet', 'model', 'scans', 'star', 'acquisition', 'history'])
+	
+mr,   343	set(['musk', 'wood', 'reimer', 'vance', 'trump', 'rogers', 'thibault', 'price', 'grant', 'wakefield', 'harbour', 'abbeel', 'zuckerberg', 'zuma', 'acton', 'harris', 'huang', 'chen', 'turnbull', 'woitiez', 'weatherill'])
+	
+model,   311	set(['tesla', 'navigate', 'month', 'rate', 'year', 'elon', 'assembly', 'sport', 'compact', 'sedans', 'introduction', 'delays', 'battery', 'production', 'luxury', 'test', 'week', 'hit', 'business', 'cars', 'price', 'bottlenecks', 'hyundai', 'sedan', 'starts', 'mr', 'output'])
+	
+elon,   171	set(['musk', 'credibility', 'mother'])
+	
+credit,   165	set(['rating', 'maxine', 'jim', 'jason', 'ranja', 'patron', 'tesla', 'photo', 'ktvu', 'al', 'sergey', 'doug', 'peter', 'victor', 'sam', 'porsche', 'josh', 'mark', 'reuters', 'maciek', 'john', 'markets', 'survives', 'esther', 'audi', 'samuel', 'bassam', 'sasha', 'amy', 'beck', 'getty', 'joe', 'yugoslav', 'jaguar', 'alejandro', 'thais', 'lucy', 'bay', 'dominik', 'roger', 'sanjeev', 'spencer', 'marvel'])
+	
+car,   148	set(['tesla', 'photo', 'general', 'crash', 'makers', 'issues', 'businessapril', 'buyers', 'imageaudi', 'driving', 'factory', 'pioneer', 'parts', 'assembly', 'business', 'company', 'spin', 'cool', 'distance', 'industry', 'companies', 'sept', 'maker'])
+	
+autopilot,   147	set(['shuts', 'tesla', 'system', 'feature', 'hardware', 'camera', 'uses', 'advertisement', 'signature', 'autopilot', 'systemmarch'])
+	
+falcon,   132	set(['heavy', 'rocket', 'launch', 'breaks', 'june', 'lift', 'falcon', 'july', 'explodes'])
+	
+company,   129	set(['outlook', 'sales', 'spacex', 'event', 'market', 'needs', 'self', 'factory', 'shares', 'autopilot', 'presentation', 'events', 'neoen', 'founders', 'intent', 'solar', 'loss', 'employees', 'headquarters', 'finances', 'credit', 'chief', 'offices', 'model'])
+	
+driving,   124	set(['tesla', 'cars', 'company', 'executive', 'system', 'experience', 'automation', 'capability', 'systems', 'characteristics', 'technology', 'car'])
+	

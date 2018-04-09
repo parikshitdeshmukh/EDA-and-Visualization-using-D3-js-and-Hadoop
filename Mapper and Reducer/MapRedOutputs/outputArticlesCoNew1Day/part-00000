@@ -1,0 +1,22 @@
+Below Output gives a list of Co-occurring word with top 10 words.	
+text,size,  Co-occurances	
+photo,   150	set(['screen', 'michael', 'credit', 'experts', 'saudi', 'spacex', 'elon', 'president', 'model', 'stock'])
+	
+mr,   131	set(['musk', 'tarantino', 'trump', 'piette', 'pence', 'yameen'])
+	
+credit,   130	set(['ranja', 'patron', 'walt', 'damir', 'todd', 'spacex', 'franck', 'sam', 'jim', 'matthew', 'reuters', 'tom', 'john', 'survives', 'christophe', 'getty', 'joe', 'janek', 'behrouz', 'felipe', 'shizuo', 'christopher', 'vincent', 'spencer', 'marvel'])
+	
+briefing,   127	set(['nytimes', 'apr', 'photo', 'asia', 'sign', 'spacex', 'stock'])
+	
+falcon,   114	set(['heavy', 'bargain', 'rocket', 'mr'])
+	
+morning,   79	set(['browse', 'trade', 'see', 'let', 'want', 'briefing', 'weekend'])
+	
+apr,   75	set(['isis', 'mexico', 'winnie', 'youtube', 'trade', 'see', 'china', 'kim', 'tariffs'])
+	
+evening,   75	set(['briefing', 'briefings'])
+	
+spacex,   68	set(['capsules', 'launch', 'launches', 'spacesuits', 'ambition', 'farhad', 'lists', 'officials', 'milestone', 'hopes', 'falcon', 'momentum'])
+	
+space,   61	set(['pioneers', 'center', 'launch', 'company', 'agency', 'community', 'tourists', 'credit', 'race', 'suit', 'station', 'event'])
+	

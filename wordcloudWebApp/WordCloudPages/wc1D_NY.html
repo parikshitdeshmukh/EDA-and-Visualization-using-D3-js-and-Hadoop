@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+    <script src="lib/d3/d3.js" charset="utf-8"></script>
+    <script src="lib/d3/d3.layout.cloud.js"></script>
+    <script src="d3.wordcloud.js"></script>
+    <!-- <script src="example.words.js"></script> -->
+  </head>
+  <body style="text-align: center">
+    <h1>Word Cloud</h1>
+      <br>
+        <br>
+    <div id='wordcloud'></div>
+    <script>     
+       var x;
+        // setTimeout(function(){
+        //   d3.tsv("part-00011", function(text) {
+        //     // x = d3.csv.parse(text);
+        //     console.log(text[0])
+        //     x=text
+        //   });
+        //   },200)
+
+              d3.text("hadoop/outputArticlesNorm1Day/part-00000", function(text) {
+                 x=d3.tsv.parse(text)
+                });
+
+        // d3.csv("part-00010.csv", function(data) {
+        //     /* Do something with `data` here */
+        //     // parik=data;
+        //        data.forEach(function(d) {
+        //         d.size = +d.size;
+        //         // d.text = +d["land area"];
+        //       });
+        //     console.log(data)
+        //     x=data;
+        //   });
+
+        setTimeout(function(){
+          console.log(x);
+          d3.wordcloud()
+          .size([800, 600])
+          .fill(d3.scale.ordinal().range(["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#17becf", "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#17becf"]))
+          .words(x)
+          .start();
+          },200)
+
+
+
+        setTimeout(function(){
+            d3.select('body')
+              .selectAll('text')
+              .style("font-size", function(d) {
+              return d*2 + "px";})
+              },200)
+
+      
+
+         // console.log(x)        
+
+    </script>
+  </body>
+</html>
