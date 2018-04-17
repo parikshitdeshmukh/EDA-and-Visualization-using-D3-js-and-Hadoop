@@ -30,7 +30,7 @@ Elon Musk, 146
 Used D3 js to create a word cloud accordnign to the words and their weightage pf occurrance in the processed data or articles.
 
 ![alt text](/wordcloudWebApp/img/1.png)
-![alt text]((/wordcloudWebApp/img/2.png)
+![alt text](/wordcloudWebApp/img/2.png)
 ![alt text](/wordcloudWebApp/img/3.png)
 ![alt text](/wordcloudWebApp/img/4.png)
 
